@@ -1,0 +1,489 @@
+.logo{
+	display: flex;
+	justify-content: center;
+	width:60%;
+	align-items:center;
+	margin:0 auto;
+}
+
+img{
+	max-width: 100%;
+	height:auto;
+	/*margin-left: 5em;*/
+}
+.logo img{
+	margin-top: 2em;
+}
+
+.menu{
+	background: #221114;
+}
+
+.banana,
+.blackcurrant,
+.capuccino,
+.caramelita,
+.creme,
+.lemon,
+.macadami,
+.maple,
+.mint,
+.passion,
+.raspberry,
+.stracciatella,
+.strawberry,
+.swiss,
+.tiramisu,
+.vanilla{
+	padding: 2em 0;
+}
+.button{
+	margin-top: -1.5em;
+}
+nav ul{
+	padding: 1em;
+  /*list-style: none;*/
+  display: flex;
+  justify-content:center;
+}
+nav ul li{
+  margin-right:.2em;
+  padding-left: 6px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+}
+
+button{
+	font-size: 18px;
+	background: black;
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border: none;
+	padding: .5em 1em;
+}
+
+td{
+	padding: 0 1px 0 3px;
+}
+
+td p{
+	font-size: 14px;
+}
+
+
+.images2{
+	margin-top: 5em;
+}
+nav ul li a:hover{
+	background: #393A44;
+	padding: .5em;
+}
+
+.no-bullet{
+	list-style: none;
+}
+
+.bullet{
+	height: 10px;
+	width: 10px;
+	background: url(images/bullet-s.png);
+	display: inline-block;
+}
+
+.container{
+	background: #BE2A3F;
+	text-align: center;
+	padding: .5em 2em 2em;
+}
+
+.container2{
+	text-align: left;
+}
+
+.container3{
+	display: flex;
+
+}
+
+.contact h1{
+	font-size: 24px;
+	text-align: center;
+}
+
+.contact2 h1{
+	font-size: 24px;
+	text-align: center;
+}
+.networks{
+	margin: 0 auto;
+}
+.contact2 p{
+	font-size: 18px;
+	text-align: center;
+}
+
+.contact{
+	padding: 1em 0;
+}
+
+.contact2{
+	padding-bottom: 1em;
+}
+h1{
+	font-family: 'Henny Penny', cursive;
+	color: #ffffff;
+	font-size: 32px;
+}
+
+ 
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	color: #D4C29C;
+}
+.collection p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	color: #D4C29C;
+}
+
+h6{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.container4 h1{
+	font-size: 24px;
+}
+
+.container4 p{
+	font-size: 20px;
+}
+
+
+.ice-cream{
+	background: url(images/ice-cream.jpg);
+	height: 600px;
+  background-position: 20% 20%;
+  background-size: cover;
+  background-attachment: fixed;
+ 	background-repeat: no-repeat;
+}
+
+.about{
+	background: url(images/about.jpg);
+	height: 600px;
+  background-position: 60% 60%;
+  background-size: cover;
+  background-attachment: fixed;
+ 	background-repeat: no-repeat;
+}
+
+.flavours{
+	background: url(images/flavours.jpg);
+	height: 600px;
+  background-position: 70% 70%;
+  background-size: cover;
+  background-attachment: fixed;
+ 	background-repeat: no-repeat;
+}
+
+.location{
+	background: url(images/store.jpg);
+	height: 700px;
+  background-position: 30% 30%;
+  background-size: cover;
+  background-attachment: fixed;
+ 	background-repeat: no-repeat;
+}
+
+.paragraph{
+	text-align: left;
+}
+@media screen and (min-width: 768px){
+
+.flavours{
+	height: 800px;
+	background-position: 50% 50%;
+}
+
+#map-canvas {
+width: 100%;
+}
+
+.bottom h1{
+	font-size: 32px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+
+.contact2 p{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.container4{
+	display: flex;
+	justify-content: space-between;
+	background: #BE2A3F;
+	text-align: center;
+}
+
+.container4 h1{
+	font-size: 32px;
+}
+
+.container4 p{
+	font-size: 28px;
+}
+
+td p{
+	font-size: 16px;
+}
+
+.logo {
+	width:100%;
+}
+
+.logo img{
+	margin-top: 3em;
+}
+.bullet{
+	height: 16px;
+	width: 16px;
+	background: url(images/bullet.png);
+}
+nav ul{
+	padding: 2em;
+}
+
+.container3{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 2em;
+}
+nav ul li{
+	margin-right: 2em;
+  padding-left: 2em;
+}
+button{
+	font-size: 22px;
+}
+
+
+ nav ul li a{
+	font-size: 20px;
+}
+
+nav ul li a:hover{
+	padding: 1.5em;
+}
+
+.container{
+	padding-bottom: 2em;
+}
+
+h1{
+	font-size: 48px;
+}
+
+p{
+	font-size: 32px;
+	padding: 0 2em 0;
+}
+
+.collection{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 3em;
+}
+
+.collection p{
+	font-size: 20px;
+}
+
+/*.show-more{
+	margin-right: 15em;
+}*/
+
+/*.show-more1,
+.show-more2,
+.show-more3,
+.show-more4,
+.show-more5,
+.show-more6,
+.show-more7,
+.show-more9,
+.show-more12{
+	margin-right: .9em;
+}
+
+.show-more8{
+	margin-right: .5em;
+}
+
+
+.show-more11{
+	margin-right: .6em;
+}
+
+.show-more10{
+	margin-right: .5em;
+}
+
+.show-more14{
+	margin-right: 1.2em;
+}
+
+.show-more15{
+	margin-right: .9em;
+}*/
+.banana,
+.blackcurrant,
+.capuccino,
+.caramelita,
+.creme,
+.lemon,
+.macadami,
+.maple,
+.mint,
+.passion,
+.raspberry,
+.stracciatella,
+.strawberry,
+.swiss,
+.tiramisu,
+.vanilla{
+	width: 22.5%;
+}
+.button{
+	margin-top: -1.3em;
+}
+.text{
+	display: flex;
+	justify-content: space-between;
+}
+
+.collection{
+	font-size: 20px;
+}
+
+h6{
+	font-size: 20px;
+}
+
+
+}
+
+.hide-text{
+  position: absolute;
+  left: -999em;
+}
+
+/*table {
+	border:1px lime solid;
+}*/
+
+td {
+	/*border:white 1px solid;*/
+	width:25%;
+}
+
+.show-more13{
+	margin-right: .5em;
+}
+
+@media screen and (min-width: 1024px){
+	
+	td{
+    padding: 0 70px 0 70px;
+	}
+	
+	td {
+	/*border:white 1px solid;*/
+	width: 20%;
+}
+}
+
+/* Page structure
+------------------------------------------*/
+
+
+#wrapper {
+	width:100%;
+	padding:2em 0;
+	background: #BE2A3F;
+}
+
+#container {
+	margin: 0 auto;
+	padding: 0 auto;
+	width:100%;
+	max-width: 960px;
+	margin-left: 1.5em;		
+}
+
+/* Maps
+------------------------------------------*/
+
+#map-canvas {
+height: 500px;
+width: 90%;
+}
+
+.container4{
+	background: #BE2A3F;
+	text-align: center;
+}
+
+.wrapper2{
+	background: black;
+}
+
+/* Social Channels
+------------------------------------------*/
+
+.social-channels {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.social-channels li {
+  margin-right: .5em;
+}
+.social-channels li a{
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  /*Hide text*/
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.social-channels li a:hover{
+  opacity: .7;
+}
+.social-channels{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.facebook{
+  background-image: url(images/facebook.svg);
+}
+.twitter{
+  background-image: url(images/twitter.svg);
+}
