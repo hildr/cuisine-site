@@ -150,8 +150,10 @@ window.addEventListener('scroll', function() {
 
 	if(this.pageYOffset >= 112) {
 		menu.classList.add('sticky');
+		menu.classList.remove('menu');
 	} else{
 		menu.classList.remove('sticky');
+		menu.classList.add('menu');
 	}
 	//console.log(this.pageYOffset);
 	
