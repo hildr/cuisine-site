@@ -6,6 +6,10 @@
 	margin:0 auto;
 }
 
+body{
+	margin: 0;
+}
+
 img{
 	max-width: 100%;
 	height:auto;
@@ -47,7 +51,7 @@ nav ul{
   justify-content:center;
 }
 nav ul li{
-  margin-right:.2em;
+  margin-right:.5em;
   padding-left: 6px;
 }
 nav ul li a{
@@ -81,7 +85,6 @@ td p{
 }
 nav ul li a:hover{
 	background: #393A44;
-	padding: .5em;
 }
 
 .no-bullet{
@@ -275,7 +278,7 @@ nav ul{
 	margin-left: 2em;
 }
 nav ul li{
-	margin-right: 2em;
+	margin-right: 3em;
   padding-left: 2em;
 }
 button{
@@ -287,9 +290,6 @@ button{
 	font-size: 20px;
 }
 
-nav ul li a:hover{
-	padding: 1.5em;
-}
 
 .container{
 	padding-bottom: 2em;
@@ -486,4 +486,9 @@ width: 90%;
 }
 .twitter{
   background-image: url(images/twitter.svg);
+}
+
+.networks{
+	display: flex;
+	justify-content: center;
 }
