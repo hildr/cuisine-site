@@ -314,42 +314,12 @@ p{
 	font-size: 20px;
 }
 
-/*.show-more{
-	margin-right: 15em;
-}*/
 
-/*.show-more1,
-.show-more2,
-.show-more3,
-.show-more4,
-.show-more5,
-.show-more6,
-.show-more7,
-.show-more9,
-.show-more12{
-	margin-right: .9em;
-}
-
-.show-more8{
-	margin-right: .5em;
+.wrapper{
+	padding: 3em 0;
 }
 
 
-.show-more11{
-	margin-right: .6em;
-}
-
-.show-more10{
-	margin-right: .5em;
-}
-
-.show-more14{
-	margin-right: 1.2em;
-}
-
-.show-more15{
-	margin-right: .9em;
-}*/
 .banana,
 .blackcurrant,
 .capuccino,
@@ -446,10 +416,15 @@ width: 90%;
 .container4{
 	background: #BE2A3F;
 	text-align: center;
+	padding-bottom: 2em;
 }
 
 .wrapper2{
 	background: black;
+}
+
+.wrapper{
+	padding: 2em 0;
 }
 
 /* Social Channels
