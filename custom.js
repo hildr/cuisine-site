@@ -32,7 +32,6 @@ button15 = document.querySelector('.show-more15'),
 more15 = document.querySelector('.more15');
 
 
-
 more.classList.add('hide-text');
 
 	button.addEventListener('click', function(){
@@ -143,4 +142,17 @@ more15.classList.add('hide-text');
 	button15.addEventListener('click', function(){
 
 		more15.classList.toggle('hide-text');
-});		
+});	
+
+var menu = document.querySelector('.menu');
+
+window.addEventListener('scroll', function() {
+
+	if(this.pageYOffset >= 112) {
+		menu.classList.add('sticky');
+	} else{
+		menu.classList.remove('sticky');
+	}
+	//console.log(this.pageYOffset);
+	
+});
