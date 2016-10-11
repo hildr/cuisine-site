@@ -7,7 +7,7 @@
 }
 
 body{
-	margin: 0;
+ margin: 0;
 }
 
 .sticky {
@@ -226,6 +226,12 @@ h6{
 .paragraph{
 	text-align: left;
 }
+
+footer{
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 1em;
+}
 @media screen and (min-width: 768px){
 
 .flavours{
@@ -239,6 +245,10 @@ width: 100%;
 
 .bottom h1{
 	font-size: 32px;
+}
+
+footer{
+	font-size: 20px;
 }
 
 .bottom{
