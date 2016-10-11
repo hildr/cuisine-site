@@ -58,6 +58,7 @@ img{
 .button{
 	margin-top: -1.5em;
 }
+
 nav ul{
 	padding: 1em;
   /*list-style: none;*/
@@ -74,6 +75,7 @@ nav ul li a{
 	font-size: 14px;
 	color: #ffffff;
 	text-align: center;
+	transition: 0.6s;
 }
 
 button{
@@ -96,9 +98,6 @@ td p{
 
 .images2{
 	margin-top: 5em;
-}
-nav ul li a:hover{
-	  background: #676470;
 }
 
 .no-bullet{
@@ -237,6 +236,14 @@ footer{
 .flavours{
 	height: 800px;
 	background-position: 50% 50%;
+}
+nav ul li a{
+	padding: 0 10px;
+}
+
+nav ul li a:hover{
+	  background: #676470;
+	  padding: 24px 10px;
 }
 
 #map-canvas {
