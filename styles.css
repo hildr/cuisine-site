@@ -238,12 +238,12 @@ footer{
 	background-position: 50% 50%;
 }
 nav ul li a{
-	padding: 0 10px;
+	padding: 0px 10px;
 }
 
 nav ul li a:hover{
 	  background: #676470;
-	  padding: 24px 10px;
+	  padding: 10px 10px;
 }
 
 #map-canvas {
