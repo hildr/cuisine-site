@@ -243,6 +243,13 @@ footer{
 width: 100%;
 }
 
+.ice-cream,
+.about,
+.flavours,
+.location{
+	 background-attachment: fixed;
+}
+
 .bottom h1{
 	font-size: 32px;
 }
